@@ -13,7 +13,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '15'
-        distribution: 'adopt'
+        distribution: 'adopt'      
     - name: print Java version
       run: java -version
     - name: Build with Gradle
