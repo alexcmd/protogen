@@ -2,7 +2,6 @@ package com.github.vmg.protogen.types;
 
 import com.squareup.javapoet.MethodSpec;
 import com.squareup.javapoet.TypeName;
-import org.apache.commons.lang3.ClassUtils;
 
 import java.lang.reflect.Type;
 import java.util.Set;

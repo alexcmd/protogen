@@ -3,7 +3,6 @@ package com.github.vmg.protogen.types;
 import com.google.protobuf.Any;
 import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.TypeName;
-import jdk.nashorn.internal.codegen.TypeMap;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

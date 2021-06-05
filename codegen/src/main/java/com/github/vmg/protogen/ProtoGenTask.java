@@ -1,21 +1,28 @@
 package com.github.vmg.protogen;
 
 import org.gradle.api.DefaultTask;
+import org.gradle.api.tasks.Input;
 import org.gradle.api.tasks.TaskAction;
 
 import java.io.File;
 import java.io.IOException;
 
 public class ProtoGenTask extends DefaultTask {
+    @Input
     private String protoPackage;
+    @Input
     private String javaPackage;
+    @Input
     private String goPackage;
-
+    @Input
     private File protosDir;
+    @Input
     private File mapperDir;
+    @Input
     private String mapperPackage;
-
+    @Input
     private File sourceJar;
+    @Input
     private String sourcePackage;
 
     public String getProtoPackage() {
